@@ -84,3 +84,4 @@ report/hw3_overleaf.zip
 .DS_Store
 wandb/          # WandB local run cache (wandb_figures/ is tracked separately)
 # Note: wandb_figures/ is intentionally NOT ignored - it's tracked in git
+PROJECT_STATUS.md
