@@ -1,0 +1,12 @@
+{
+  "method": "DreamFusion-SD v5 (corgi, perp-neg + view-dependent)",
+  "prompt": "a Pembroke Welsh Corgi dog, sitting, orange white fur, very short legs, long body, white chest, large upright ears, one face, one nose, one mouth, brown eyes, stubby tail, toy figurine, white background, studio lighting, 3D render",
+  "negative_prompt": "two faces, multiple faces, face on back, face on side, extra heads, three ears, four ears, extra ears, extra legs, missing legs, extra tails, extra noses, blurry, low quality, bad anatomy, ugly, deformed, mutated, extra limbs, floating limbs",
+  "steps": 15000,
+  "resolution": "128x128",
+  "guidance_scale": 50.0,
+  "use_perp_neg": true,
+  "view_dependent_prompt_front": true,
+  "time_minutes": 58.00554756720861,
+  "status": "OK"
+}

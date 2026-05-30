@@ -1,0 +1,8 @@
+{
+  "method": "3DGS v3 (high quality, undistorted)",
+  "total_time_minutes": 13.520278159777323,
+  "final_gaussians": 594197,
+  "final_psnr_db": 32.841036677202574,
+  "mean_eval_psnr_db": 32.99948497189311,
+  "final_loss": 0.025914926081895828
+}

@@ -1,0 +1,86 @@
+# ── Large model weights & checkpoints (→ Google Drive) ──────────────
+model_cache/
+*.ckpt
+*.pth
+*.ply
+
+# ── Large 3D outputs (→ Google Drive) ──────────────────────────────
+objectA/gs_output/
+objectA/gs_output_v2/
+objectA/gs_output_v3/point_cloud/iteration_15000/
+objectA/gs_output_v3/point_cloud/iteration_30000/
+objectA/gs_output_v3/wandb/
+objectB/outputs/
+objectB/outputs_v2/
+objectB/outputs_v3/
+objectB/outputs_v4/
+objectB/outputs_v5/
+
+# ── Raw video & large media ─────────────────────────────────────────
+objectA/物体A视频.mov
+objectA/images/
+objectA/images_undistorted/
+objectC/object_C_original.jpg
+
+# ── COLMAP database (binary, reproducible) ──────────────────────────
+objectA/database.db
+
+# ── Deprecated / old training scripts ───────────────────────────────
+objectA/train_3dgs_gsplat.py
+objectA/train_3dgs.py
+objectA/retrain_3dgs.py
+objectA/render_gs.py
+objectA/debug_render.py
+objectA/debug_render/
+objectA/gs_renders/
+objectA/gs_renders_v2/
+objectB/run_objectB.py
+objectB/run_objectB_v2.py
+objectB/run_objectB_v3.py
+objectB/run_objectB_v4.py
+objectB/render_*.png
+objectB/v2_render_*.png
+objectB/v3_render_*.png
+objectB/v4_render_*.png
+objectB/v2_it10000-test.mp4
+objectB/v3_it10000-test.mp4
+objectB/v4_it10000-test.mp4
+objectB/timing.json
+objectB/timing_v2.json
+objectB/timing_v3.json
+objectB/timing_v4.json
+
+# ── Large binary 3D outputs (→ Google Drive only) ────────────────────
+objectC/triposr_output/0/mesh.obj
+
+# ── Third-party repos (cloned, not our code) ───────────────────────
+gaussian-splatting/
+hloc/
+threestudio/
+TripoSR/
+nvdiffrast/
+zero123/
+3dgs/
+
+# ── Python cache ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ── Logs & temp ────────────────────────────────────────────────────
+logs/
+*.log
+*.pid
+*.log.*
+
+# ── Report build artifacts ─────────────────────────────────────────
+report/*.log
+report/*.aux
+report/*.toc
+report/*.out
+report/hw3_overleaf.zip
+
+# ── Misc ───────────────────────────────────────────────────────────
+.DS_Store
+wandb/          # WandB local run cache (wandb_figures/ is tracked separately)
+# Note: wandb_figures/ is intentionally NOT ignored - it's tracked in git
